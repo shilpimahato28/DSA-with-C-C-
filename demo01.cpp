@@ -1,23 +1,11 @@
-// pointer to structure
-#include<iostream>
-
+//skeleton of a c++ program
+#include<bits/stdc++.h>// a library includes all the library
 using namespace std;
-
-struct Rectangle{
-    int length;
-    int breadth;
-};
-
 int main(){
-    Rectangle *p;
-
- p=new Rectangle;  // to create a new rectangle dynamically in heap
-p->length=15;
-p->breadth=7;
-cout<<p->length<<endl;
-cout<<p->breadth<<endl;
+cout<<"hey striver"<<endl;
+int x,y;
+cin>>x>>y;
+cout<<"value of x and y is "<<x<<"\n"<<y;
 
     return 0;
-
-
 }
