@@ -1,49 +1,19 @@
-//OOPS IN CPP
 
-#include <iostream>
-
+//conditional statements
+#include<bits/stdc++.h>
 
 using namespace std;
-
-class Rectangle{
-    public:
-    int length;
-    int breadth;
-
-   void  initialise(int l,int b){
-        length=l;
-        breadth=b;
-    }
-
-    int area(){
-
-        return length*breadth;
-    }
-
-    int  perimeter(){
-        return 2*(length+breadth);
-    }
-};
-
-
-
 int main(){
-    Rectangle r;
+    cout<<"enter yor age"<<endl;
+    int x;
+    cin>>x;
+    if(x>=18){
+        cout<<" an adult";
+    }
+    else{
+        cout<<"not an adult";
 
-    int l,b;
-    cout<<("enter length and  breadth")<<endl;
-    cin>>l>>b;
+    }
 
-    r.initialise(l,b);
-    int a= r.area();
-    cout<<("area=",a)<<endl;
-    int p=r.perimeter();
-    cout<<("perimeter=",p);
-    
-    
-
-    
-    
-
-
+    return 0;
 }
