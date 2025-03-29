@@ -28,6 +28,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "Live Preview",
+            "workspacePath": "c:\\Users\\DELL\\Desktop\\DSA-with-C-C-",
+            "problemMatcher": [],
+            "label": "Live Preview: Run Server"
         }
     ]
 }
